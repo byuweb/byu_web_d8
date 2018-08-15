@@ -1,0 +1,30 @@
+{
+  "name": "byu_web_d8",
+  "version": "1.0.0",
+  "description": "Subtheme of byu_theme for Web Community site.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byuweb/byu_web_d8.git"
+  },
+  "author": "Brigham Young University",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/byuweb/byu_web_d8/issues"
+  },
+  "homepage": "https://github.com/byuweb/byu_web_d8#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^4.3.2",
+    "gulp-minify": "^2.1.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "snyk": "^1.85.0"
+  },
+  "snyk": true
+}

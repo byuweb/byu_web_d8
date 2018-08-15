@@ -1,0 +1,1 @@
+{"version":3,"file":"mixins.css","sources":["mixins.scss"],"sourcesContent":["$paleGray: #f2f2f2;\n$mediumGray: #666;\n$darkGray: #141414;\n\n$navy: #002E5D;\n$royal: #0057B8;\n\n$bodyFontSize: 16px;\n\n$libre: 'Libre Baskerville', serif;"],"names":[],"mappings":""}
