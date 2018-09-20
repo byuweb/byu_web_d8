@@ -1,0 +1,22 @@
+.main {
+  color: #666;
+  font-size: 16px; }
+
+.field--name-name h2, .field--name-name a {
+  color: #666 !important;
+  font-weight: 600;
+  margin-bottom: 0; }
+
+.field--name-field-members, .field--name-field-sites, .field--name-field-resources-maintained, .field--name-field-maintainers {
+  padding-top: 8px; }
+  .field--name-field-members .field--label, .field--name-field-sites .field--label, .field--name-field-resources-maintained .field--label, .field--name-field-maintainers .field--label {
+    font-size: 20px;
+    border-bottom: solid 1px #666;
+    margin-top: 16px;
+    margin-bottom: 8px; }
+  .field--name-field-members .field--item, .field--name-field-sites .field--item, .field--name-field-resources-maintained .field--item, .field--name-field-maintainers .field--item {
+    line-height: 1.5; }
+  .field--name-field-members .views-row, .field--name-field-sites .views-row, .field--name-field-resources-maintained .views-row, .field--name-field-maintainers .views-row {
+    display: block; }
+
+/*# sourceMappingURL=term.css.map */

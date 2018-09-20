@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109 109">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #002e5d;
+      }
+    </style>
+  </defs>
+  <g id="Group_444" data-name="Group 444" transform="translate(-1368 -577)">
+    <circle id="Ellipse_6" data-name="Ellipse 6" class="cls-1" cx="54.5" cy="54.5" r="54.5" transform="translate(1368 577)"/>
+    <g id="Group_419" data-name="Group 419" transform="translate(1368 455)">
+      <rect id="Rectangle_129" data-name="Rectangle 129" class="cls-2" width="7.4" height="7.4" transform="translate(49.5 170.2)"/>
+      <rect id="Rectangle_130" data-name="Rectangle 130" class="cls-2" width="7.4" height="7.4" transform="translate(69.8 170.2)"/>
+      <rect id="Rectangle_131" data-name="Rectangle 131" class="cls-2" width="7.4" height="7.4" transform="translate(59.6 170.2)"/>
+      <rect id="Rectangle_132" data-name="Rectangle 132" class="cls-2" width="27.7" height="8.3" transform="translate(49.5 180.9)"/>
+      <path id="Path_356" data-name="Path 356" class="cls-2" d="M54.5,122A54.5,54.5,0,1,0,109,176.5,54.5,54.5,0,0,0,54.5,122ZM40.6,204H31.1a4.7,4.7,0,0,1-4.7-4.7V165.7H40.6Zm40.8-4.7a4.7,4.7,0,0,1-4.7,4.7H44.6V165.7H81.4v33.6Zm0-37.6h-55v-8a4.7,4.7,0,0,1,4.7-4.7H76.6a4.7,4.7,0,0,1,4.7,4.7v8Z"/>
+    </g>
+  </g>
+</svg>

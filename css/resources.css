@@ -1,0 +1,95 @@
+.main.custom-width-1200 {
+  max-width: 100%;
+  padding: 0; }
+
+h1.title {
+  font-size: 80px;
+  color: #002E5D !important;
+  border-bottom: solid 3px #e6e6e6;
+  width: 50%;
+  margin: 72px auto;
+  padding-bottom: 32px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+p.intro {
+  color: #002E5D !important;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  margin: 0 auto 148px;
+  max-width: 1000px; }
+
+h2.internal-resources {
+  display: none; }
+
+div.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 72px; }
+  div.card-container div.resource-card {
+    height: 318px;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  div.card-container h3 {
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 90px; }
+  div.card-container p {
+    font-size: 22px;
+    line-height: 26px;
+    position: relative;
+    bottom: 90px; }
+  div.card-container div.resource-card {
+    padding: 16px; }
+  div.card-container img {
+    margin: 0 auto 16px;
+    position: relative;
+    bottom: 90px; }
+
+div.white-cards div.resource-card {
+  border: solid 2px #002E5D; }
+
+div.white-cards h3 {
+  color: #002E5D !important; }
+
+div.white-cards p {
+  color: #666 !important; }
+
+div.blue-cards {
+  background-color: #002E5D; }
+  div.blue-cards h2 {
+    text-transform: uppercase;
+    color: #AFD6FE !important;
+    font-size: 50px;
+    display: block;
+    margin: 0 auto 32px;
+    padding-top: 60px;
+    width: 80%;
+    font-weight: 600;
+    text-align: center; }
+  div.blue-cards p.description {
+    font-size: 28px;
+    line-height: 34px;
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto 132px;
+    text-align: center; }
+  div.blue-cards div.resource-card {
+    border: solid 2px #AFD6FE; }
+  div.blue-cards h3 {
+    color: #AFD6FE !important; }
+  div.blue-cards p {
+    color: #FFF !important; }
+
+/*# sourceMappingURL=resources.css.map */

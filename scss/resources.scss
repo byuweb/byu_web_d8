@@ -1,0 +1,126 @@
+@import "mixins.scss";
+
+.main.custom-width-1200 {
+    max-width: 100%;
+    padding: 0;
+}
+
+h1.title {
+    font-size: 80px;
+    color: $navy !important;
+    border-bottom: solid 3px $lightGray;
+    width: 50%;
+    margin: 72px auto;
+    padding-bottom: 32px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+p.intro {
+    color: $navy !important;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    margin: 0 auto 148px;
+    max-width: 1000px;
+}
+
+h2.internal-resources {
+    display: none;
+}
+
+div.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 72px;
+
+    div.resource-card {
+        height: 318px;
+        width: 275px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        position: relative;
+        bottom: 90px;
+    }
+
+    p {
+        font-size: 22px;
+        line-height: 26px;
+        position: relative;
+        bottom: 90px;
+    }
+
+    div.resource-card {
+        padding: 16px;
+    }
+
+    img {
+        margin: 0 auto 16px;
+        position: relative;
+        bottom: 90px;
+    }
+}
+
+div.white-cards {
+    div.resource-card {
+        border: solid 2px $navy;
+    }
+
+    h3 {
+        color: $navy !important;
+    }
+
+    p {
+        color: $mediumGray !important;
+    }
+}
+
+div.blue-cards {
+    background-color: $navy;
+
+    h2 {
+        text-transform: uppercase;
+        color: $lightBlue !important;
+        font-size: 50px;
+        display: block;
+        margin: 0 auto 32px;
+        padding-top: 60px;
+        width: 80%;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    p.description {
+        font-size: 28px;
+        line-height: 34px;
+        max-width: 1000px;
+        display: block;
+        margin: 0 auto 132px;
+        text-align: center;
+    }
+
+    div.resource-card {
+        border: solid 2px $lightBlue;
+    }
+
+    h3 {
+        color: $lightBlue !important;
+    }
+
+    p {
+        color: $white !important;
+    }
+}

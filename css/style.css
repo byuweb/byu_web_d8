@@ -1,2 +1,117 @@
+body {
+  font-size: 18px !important;
+  line-height: 26px;
+  margin: 0 32px; }
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 16px; } }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #141414; }
+
+.form-control {
+  color: #141414; }
+
+.breadcrumb > .active {
+  color: #141414; }
+
+@media screen and (max-width: 1200px) {
+  .main {
+    margin: 0 16px; } }
+
+byu-social-media-links .github {
+  background-image: url("../svg/github.svg"); }
+
+byu-social-media-links .slack {
+  background-image: url("../svg/slack.svg"); }
+
+byu-social-media-links .box {
+  background-image: url("../svg/box.svg"); }
+
+.view-id-resources .view-content, .view-id-features .view-content {
+  display: flex;
+  flex-wrap: wrap; }
+  .view-id-resources .view-content .views-row, .view-id-features .view-content .views-row {
+    width: calc(100% * (1/2) - 32px);
+    flex-grow: 1;
+    margin: 8px 16px;
+    padding: 8px;
+    border: solid 1px #e6e6e6; }
+  .view-id-resources .view-content .views-field-title, .view-id-features .view-content .views-field-title {
+    background-color: #002E5D;
+    font-weight: 500;
+    line-height: 1.5;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    margin: -8px;
+    margin-bottom: 8px;
+    padding-left: 16px; }
+    .view-id-resources .view-content .views-field-title h3, .view-id-features .view-content .views-field-title h3 {
+      margin: 0 !important; }
+      .view-id-resources .view-content .views-field-title h3 a, .view-id-resources .view-content .views-field-title h3 a:hover, .view-id-features .view-content .views-field-title h3 a, .view-id-features .view-content .views-field-title h3 a:hover {
+        color: #FFF !important; }
+  .view-id-resources .view-content .views-field-field-cms, .view-id-features .view-content .views-field-field-cms {
+    float: left;
+    margin: 0 16px 8px; }
+  .view-id-resources .view-content .views-field-body, .view-id-features .view-content .views-field-body {
+    clear: left; }
+  .view-id-resources .view-content .views-field-view-node, .view-id-features .view-content .views-field-view-node {
+    text-align: center;
+    background-color: #66B200;
+    width: 50%;
+    margin: 16px auto;
+    padding: 16px;
+    font-weight: 600;
+    text-transform: uppercase; }
+    .view-id-resources .view-content .views-field-view-node a, .view-id-resources .view-content .views-field-view-node a:hover, .view-id-features .view-content .views-field-view-node a, .view-id-features .view-content .views-field-view-node a:hover {
+      color: #FFF; }
+
+.view-id-features .form--inline label {
+  display: block; }
+
+.view-id-features .form-actions .btn {
+  margin-top: 25px; }
+
+.field--name-field-download, .field--name-field-source-code, .field--nane-field-demo {
+  float: left;
+  padding: 8px 24px;
+  text-transform: uppercase; }
+  .field--name-field-download a, .field--name-field-source-code a, .field--nane-field-demo a {
+    color: #FFF; }
+
+.field--name-field-source-code, .field--nane-field-demo {
+  margin-left: 16px; }
+
+.field--name-field-download {
+  background-color: #0057B8; }
+
+.field--name-field-source-code {
+  background-color: #666; }
+
+.field--name-field-demo {
+  background-color: #66B200; }
+
+.field--name-field-cms {
+  padding-top: 16px;
+  clear: left; }
+
+.book .field--name-body {
+  padding: 16px 0 8px;
+  clear: left; }
+
+.book nav[role="navigation"] ul {
+  border-top: solid 1px #c5c5c5;
+  padding: 8px 0 0 0; }
+
+.book nav[role="navigation"] ul.arrow-nav {
+  list-style: none; }
+  .book nav[role="navigation"] ul.arrow-nav li {
+    display: inline; }
+  .book nav[role="navigation"] ul.arrow-nav li:last-child {
+    float: right; }
 
 /*# sourceMappingURL=style.css.map */

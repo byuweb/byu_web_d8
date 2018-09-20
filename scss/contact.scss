@@ -1,0 +1,30 @@
+@import "mixins.scss";
+
+.content {
+    margin: 0 48px;
+    font-size: 18px;
+    color: $mediumGray !important;
+}
+
+p.about-option-text {
+    margin-top: 64px;
+}
+
+hr {
+    border-bottom: 3px solid $lightGray;
+}
+
+button {
+    color: $white;
+    text-transform: uppercase;
+    background-color: $royal;
+    border: 0;
+    padding: 16px;
+    font-weight: 600;
+    margin: 16px 0;
+    margin-bottom: 48px;
+}
+
+img.align-left {
+    margin-right: 48px;
+}

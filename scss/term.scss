@@ -1,0 +1,34 @@
+@import "mixins.scss";
+
+.main {
+    color: $mediumGray;
+    font-size: 16px;
+}
+
+.field--name-name {
+    h2, a {
+        color: $mediumGray !important;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+}
+
+.field--name-field-members, .field--name-field-sites, .field--name-field-resources-maintained, .field--name-field-maintainers  {
+    padding-top: 8px;
+    
+    .field--label {
+        font-size: 20px;
+        border-bottom: solid 1px $mediumGray;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+    
+    .field--item {
+        line-height: 1.5;
+    }
+    
+    // Include this so resources don't appear in a line.
+    .views-row {
+        display: block;
+    }
+}

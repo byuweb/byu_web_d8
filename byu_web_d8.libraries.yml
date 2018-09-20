@@ -4,3 +4,36 @@ global-styling:
       css/style.css: {}
   js:
     js/scripts.js: {}
+user:
+  css:
+    theme:
+      css/user.css: {}
+term:
+  css:
+    theme:
+      css/term.css: {}
+contact:
+  css:
+    theme:
+      css/contact.css: {}
+front:
+  css:
+    theme:
+      css/front.css: {}
+resources:
+  css:
+    theme:
+      css/resources.css: {}
+feature-styles:
+  version: 1.x
+  js:
+    js/byu-calendar-loader.js: {}
+  dependencies:
+    - core/jquery
+
+calendar-components:
+  css:
+    state:
+      https://cdn.byu.edu/byu-calendar-components/experimental/font-switch/byu-calendar.min.css: { type: external, minified: true }
+  js:
+    https://cdn.byu.edu/byu-calendar-components/experimental/font-switch/byu-calendar.min.js: { type: external, minified: true }

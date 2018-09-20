@@ -1,0 +1,222 @@
+@import "mixins.scss";
+
+h2 {
+    margin: 0;
+}
+
+.main.custom-width-1200 {
+    max-width: 100%;
+    padding: 0;
+}
+
+.hero-0 {
+
+    background-image: url('../images/hero-0-base.jpg');
+    height: 580px !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 0%;
+    background-position: center top;
+    background-attachment: fixed;
+
+
+    h2:not(.real) {
+        display: none;
+    }
+
+    h2 {
+        color: white !important;
+        font-size: 48px;
+        height: 200px;
+        width: 38%;
+        background-color: rgba(0, 87, 184, 0.7);
+        text-align: left;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 48px;
+        font-weight: 600;
+    }
+}
+
+.hero-1 {
+    height: 326px !important;
+
+    h2 {
+        font-size: 32px;
+        line-height: 47px;
+        width: 50%;
+        margin: 0 auto;
+        font-weight: 400;
+
+        p {
+            color: $navy;
+        }
+
+        p:first-child {
+            padding: 38px;
+        }
+    }
+
+    button {
+        font-size: 24px;
+        line-height: 29px;
+        border: none;
+        background-color: $navy;
+        padding: 8px 16px;
+        color: $white;
+        height: 60px;
+    }
+
+    button:hover {
+        background-color: $royal;
+    }
+}
+
+.hero-2 {
+    height: 508px !important;
+    background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('../images/hero-2.JPG');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 0%;
+    background-position: center top;
+    background-attachment: fixed;
+
+    h2 {
+        color: $white;
+        font-size: 82px;
+        text-shadow: 3px 3px 9px rgba(0, 0, 0, .16);
+    }
+
+    div[slot="intro-text"] {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    div.stay-updated-card {
+        width: 385px;
+        height: 165px;
+        border: solid 1px $mediumGray;
+        box-shadow: 3px 3px 9px rgba(0, 0, 0, .16);
+        margin-right: 23px;
+        background-color: rgba(255, 255, 255, .85);
+        padding: 16px 24px;
+
+        img {
+            float: left;
+        }
+
+        h3 {
+            background-color: $lightGray;
+            font-size: 24px;
+            line-height: 29px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin: 22px 0 10px 20px;
+            padding: 8px 0;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+
+    div.stay-updated-card:last-of-type {
+        margin-right: 0;
+    }
+
+}
+
+.hero-3 {
+    height: 662px !important;
+
+    div[slot="intro-text"] {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 939px;
+        margin: 0 auto;
+    }
+
+    div.wgc-card {
+        width: 281px;
+        height: 198px;
+        border: solid 3px $mediumGray;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 12px 15px;
+
+        div.wgc-card--image {
+            margin-bottom: 48px;
+        }
+
+        div.wgc-card--text {
+            background-color: rgba(20, 20, 20, .8);
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 5px;
+
+            h3 {
+                color: $white !important;
+                font-size: 18px;
+                line-height: 22px;
+                margin: 0;
+            }
+
+            p {
+                color: $white !important;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+    }
+
+    div.wgc-card:first-of-type {
+        border: none;
+        text-align: left;
+
+        h2 {
+            color: $mediumGray;
+            font-size: 48px;
+            line-height: 66px;
+        }
+    }
+}
+
+.hero-4 {
+    height: 754px !important;
+    background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('../images/hero-4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 0%;
+    background-position: center top;
+    background-attachment: fixed;
+
+    h2 {
+        font-size: 60px;
+        line-height: 72px;
+        width: 50%;
+        color: $white;
+        background-color: rgba(0, 46, 93, .80);
+        margin: 74px auto 0;
+        padding: 24px 0;
+    }
+
+    h2:not(.real) {
+        display: none;
+    }
+
+    div[slot="intro-text"] {
+        display: flex;
+        justify-content: center;
+    }
+
+    byu-calendar {
+        --byu-calendar-tile-background: #{$lightGray};
+    }
+}

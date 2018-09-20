@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.9 109">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #002e5d;
+      }
+
+      .cls-2 {
+        fill: #afd6fe;
+      }
+    </style>
+  </defs>
+  <g id="Group_446" data-name="Group 446" transform="translate(-1060 -1333)">
+    <circle id="Ellipse_6" data-name="Ellipse 6" class="cls-1" cx="54.5" cy="54.5" r="54.5" transform="translate(1060 1333)"/>
+    <g id="Group_422" data-name="Group 422" transform="translate(791 1211)">
+      <path id="Path_360" data-name="Path 360" class="cls-2" d="M324.4,165.5a15.4,15.4,0,1,0,15.4,15.4A15.407,15.407,0,0,0,324.4,165.5Zm0,25.5a10.1,10.1,0,1,1,10.1-10.1A10.072,10.072,0,0,1,324.4,191Z"/>
+      <path id="Path_361" data-name="Path 361" class="cls-2" d="M345.8,169.5a2.8,2.8,0,1,0,2.8,2.8A2.8,2.8,0,0,0,345.8,169.5Z"/>
+      <path id="Path_362" data-name="Path 362" class="cls-2" d="M324.4,122a54.5,54.5,0,1,0,54.5,54.5A54.5,54.5,0,0,0,324.4,122Zm33,72.9c0,4.7-4.2,6.4-6.4,6.6H298.6a6.256,6.256,0,0,1-5-2,7.07,7.07,0,0,1-1.6-4.7V168.6c0-5.4,4.6-7,7-7.1l10.9-.1c.5-9.3,5.4-10.1,6-10.1H334c5.5,0,7.4,5.7,7.8,10.1h9c4.8,0,6.4,4.2,6.6,6.4v27.1Z"/>
+    </g>
+  </g>
+</svg>

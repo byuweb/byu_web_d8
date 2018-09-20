@@ -1,0 +1,25 @@
+.content {
+  margin: 0 48px;
+  font-size: 18px;
+  color: #666 !important; }
+
+p.about-option-text {
+  margin-top: 64px; }
+
+hr {
+  border-bottom: 3px solid #e6e6e6; }
+
+button {
+  color: #FFF;
+  text-transform: uppercase;
+  background-color: #0057B8;
+  border: 0;
+  padding: 16px;
+  font-weight: 600;
+  margin: 16px 0;
+  margin-bottom: 48px; }
+
+img.align-left {
+  margin-right: 48px; }
+
+/*# sourceMappingURL=contact.css.map */

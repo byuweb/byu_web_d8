@@ -31,4 +31,3 @@ gulp.task('default',['styles'], function() {
 
 //Distribution task
 gulp.task('css', ['styles', 'minify-css']);
-

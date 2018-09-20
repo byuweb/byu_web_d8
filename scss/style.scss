@@ -1,1 +1,169 @@
 @import "mixins.scss";
+
+// Changes to be build into main theme
+body {
+    font-size: 18px!important;
+    line-height: 26px;
+    margin: 0 32px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 16px;
+    }
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: $darkGray;
+}
+
+.form-control {
+    color: $darkGray;
+}
+
+.breadcrumb > .active {
+    color: $darkGray;
+}
+
+@media screen and (max-width: 1200px) {
+    .main{
+        margin: 0 16px;
+    }
+}
+
+// custom footer icons
+byu-social-media-links .github {
+    background-image: url('../svg/github.svg');
+}
+
+byu-social-media-links .slack {
+    background-image: url('../svg/slack.svg');
+}
+
+byu-social-media-links .box {
+    background-image: url('../svg/box.svg');
+}
+
+// Resources view
+.view-id-resources .view-content, .view-id-features .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    
+    .views-row {
+        width: calc(100% * (1/2) - 32px);
+        flex-grow: 1;
+        margin: 8px 16px;
+        padding: 8px;
+        border: solid 1px $lightGray;
+    }
+    
+    .views-field-title {
+        background-color: $navy;
+        font-weight: 500;
+        line-height: 1.5;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        margin: -8px;
+        margin-bottom: 8px;
+        padding-left: 16px;
+        
+        h3 {
+            margin: 0 !important;
+            
+            a, a:hover {
+                color: $white !important;
+            }
+        }
+    }
+    
+    .views-field-field-cms {
+        float: left;
+        margin: 0 16px 8px;
+    }
+    
+    .views-field-body {
+        clear: left;
+    }
+    
+    .views-field-view-node {
+        text-align: center;
+        background-color: $green;
+        width: 50%;
+        margin: 16px auto;
+        padding: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        
+        a, a:hover {
+            color: $white;
+        }
+    }
+}
+
+.view-id-features {
+    
+    .form--inline label {
+        display: block;
+    }
+    
+    .form-actions .btn {
+        margin-top: 25px;
+    }
+}
+
+// Resouce Pages
+.field--name-field-download, .field--name-field-source-code, .field--nane-field-demo  {
+    float: left;
+    padding: 8px 24px;
+    text-transform: uppercase;
+    
+    a {
+        color: $white;
+    }
+}
+
+.field--name-field-source-code, .field--nane-field-demo {
+    margin-left: 16px;
+}
+
+.field--name-field-download {
+    background-color: $royal;
+}
+.field--name-field-source-code {
+    background-color: $mediumGray;
+}
+.field--name-field-demo {
+    background-color: $green;
+}
+
+.field--name-field-cms {
+    padding-top: 16px;
+    clear: left;
+}
+
+.book .field--name-body {
+    padding: 16px 0 8px;
+    clear: left;
+}
+
+.book nav[role="navigation"] {
+    ul {
+        border-top: solid 1px $gray;
+        padding: 8px 0 0 0;
+    }
+    
+    ul.arrow-nav {
+        list-style: none;  
+            
+        li {
+            display: inline;
+        }
+        
+        li:last-child {
+            float: right;
+        }
+    }
+}

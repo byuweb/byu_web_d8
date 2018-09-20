@@ -1,0 +1,58 @@
+@import "mixins.scss";
+
+.region-content {
+    padding: 16px;
+}
+
+.main {
+    color: $mediumGray;
+    font-size: 16px;
+}
+
+.field--name-user-picture {
+    float: left;
+    margin-right: 32px;
+}
+
+.field--name-name {
+    h2 {
+        color: $mediumGray !important;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+}
+
+.field--name-field-department {
+    a {
+        color: $mediumGray;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    margin-bottom: 12px;
+}
+
+.field--name-field-slack-username .field--item::before, .field--name-field-github-username .field--item::before {
+    content: '@';
+}
+
+.field--name-field-sites, .field--name-field-resources-maintained, .field--name-field-groups {
+    clear: left;
+    padding-top: 8px;
+    
+    .field--label {
+        font-size: 20px;
+        border-bottom: solid 1px $mediumGray;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+    
+    .field--item {
+        line-height: 1.5;
+    }
+    
+    // Include this so resources don't appear in a line.
+    .views-row {
+        display: block;
+    }
+}

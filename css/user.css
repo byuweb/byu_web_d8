@@ -1,0 +1,40 @@
+.region-content {
+  padding: 16px; }
+
+.main {
+  color: #666;
+  font-size: 16px; }
+
+.field--name-user-picture {
+  float: left;
+  margin-right: 32px; }
+
+.field--name-name h2 {
+  color: #666 !important;
+  font-weight: 600;
+  margin-bottom: 0; }
+
+.field--name-field-department {
+  margin-bottom: 12px; }
+  .field--name-field-department a {
+    color: #666;
+    font-weight: 500;
+    font-size: 18px; }
+
+.field--name-field-slack-username .field--item::before, .field--name-field-github-username .field--item::before {
+  content: '@'; }
+
+.field--name-field-sites, .field--name-field-resources-maintained, .field--name-field-groups {
+  clear: left;
+  padding-top: 8px; }
+  .field--name-field-sites .field--label, .field--name-field-resources-maintained .field--label, .field--name-field-groups .field--label {
+    font-size: 20px;
+    border-bottom: solid 1px #666;
+    margin-top: 16px;
+    margin-bottom: 8px; }
+  .field--name-field-sites .field--item, .field--name-field-resources-maintained .field--item, .field--name-field-groups .field--item {
+    line-height: 1.5; }
+  .field--name-field-sites .views-row, .field--name-field-resources-maintained .views-row, .field--name-field-groups .views-row {
+    display: block; }
+
+/*# sourceMappingURL=user.css.map */
