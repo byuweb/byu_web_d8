@@ -3,7 +3,12 @@ h2 {
 
 .main.custom-width-1200 {
   max-width: 100%;
-  padding: 0; }
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+div.content-top {
+  display: none; }
 
 .hero-0 {
   background-image: url("../images/hero-0-base.jpg");
@@ -28,6 +33,30 @@ h2 {
     padding: 0 48px;
     font-weight: 600; }
 
+@media screen and (max-width: 1310px) {
+  .hero-0 {
+    background-size: cover; }
+    .hero-0 h2 {
+      width: 50%; } }
+
+@media screen and (max-width: 1004px) {
+  .hero-0 h2 {
+    width: 70%; } }
+
+@media screen and (max-width: 768px) {
+  .hero-0 h2 {
+    width: 80%; } }
+
+@media screen and (max-width: 644px) {
+  .hero-0 h2 {
+    width: 90%;
+    padding: 0 16px;
+    height: 300px; } }
+
+@media screen and (max-width: 400px) {
+  .hero-0 h2 {
+    font-size: 36px; } }
+
 .hero-1 {
   height: 326px !important; }
   .hero-1 h2 {
@@ -51,11 +80,37 @@ h2 {
   .hero-1 button:hover {
     background-color: #0057B8; }
 
+@media screen and (max-width: 1440px) {
+  .hero-1 h2 p:first-child {
+    padding: 0 0 16px;
+    margin-top: 32px; } }
+
+@media screen and (max-width: 1024px) {
+  .hero-1 h2 {
+    width: 70%; } }
+
+@media screen and (max-width: 768px) {
+  .hero-1 h2 {
+    width: 100%; } }
+
+@media screen and (max-width: 532px) {
+  .hero-1 h2 {
+    font-size: 26px;
+    line-height: 34px; } }
+
+@media screen and (max-width: 375px) {
+  .hero-1 h2 {
+    font-size: 20px;
+    line-height: 26px; }
+  .hero-1 button {
+    font-size: 20px;
+    line-height: 30px; } }
+
 .hero-2 {
   height: 508px !important;
   background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../images/hero-2.JPG");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   top: 0%;
   background-position: center top;
   background-attachment: fixed; }
@@ -85,11 +140,47 @@ h2 {
       text-transform: uppercase;
       margin: 22px 0 10px 20px;
       padding: 8px 0; }
+    .hero-2 div.stay-updated-card a:hover {
+      text-decoration: none; }
     .hero-2 div.stay-updated-card p {
       font-size: 16px;
       line-height: 19px; }
   .hero-2 div.stay-updated-card:last-of-type {
     margin-right: 0; }
+
+@media screen and (max-width: 1440px) {
+  .hero-2 {
+    background-size: cover; } }
+
+@media screen and (max-width: 1024px) {
+  .hero-2 div.stay-updated-card {
+    display: flex;
+    align-items: center; }
+    .hero-2 div.stay-updated-card p {
+      display: none; }
+    .hero-2 div.stay-updated-card h3 {
+      margin: 0 0 0 20px; } }
+
+@media screen and (max-width: 768px) {
+  .hero-2 div.stay-updated-card {
+    width: 175px; }
+    .hero-2 div.stay-updated-card h3 {
+      display: none; } }
+
+@media screen and (max-width: 580px) {
+  .hero-2 {
+    height: 900px !important;
+    max-height: 900px !important; }
+    .hero-2 div[slot="intro-text"] {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 32px; }
+      .hero-2 div[slot="intro-text"] div.stay-updated-card {
+        margin: 0 0 23px; } }
+
+@media screen and (max-width: 375px) {
+  .hero-2 h2 {
+    font-size: 60px; } }
 
 .hero-3 {
   height: 662px !important; }
@@ -98,7 +189,8 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 939px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    justify-content: center; }
   .hero-3 div.wgc-card {
     width: 281px;
     height: 198px;
@@ -125,6 +217,10 @@ h2 {
         color: #FFF !important;
         font-size: 12px;
         line-height: 15px; }
+      .hero-3 div.wgc-card div.wgc-card--text a {
+        color: #FFF !important; }
+      .hero-3 div.wgc-card div.wgc-card--text a:hover {
+        color: #FFF !important; }
   .hero-3 div.wgc-card:first-of-type {
     border: none;
     text-align: left; }
@@ -132,6 +228,16 @@ h2 {
       color: #666;
       font-size: 48px;
       line-height: 66px; }
+
+@media screen and (max-width: 1000px) {
+  .hero-3 {
+    max-height: 800px !important;
+    height: 800 !important; } }
+
+@media screen and (max-width: 662px) {
+  .hero-3 {
+    max-height: 1400px !important;
+    height: 1400px !important; } }
 
 .hero-4 {
   height: 754px !important;
@@ -156,5 +262,43 @@ h2 {
     justify-content: center; }
   .hero-4 byu-calendar {
     --byu-calendar-tile-background: #e6e6e6; }
+
+@media screen and (max-width: 1440px) {
+  .hero-4 h2 {
+    width: 60%; } }
+
+@media screen and (max-width: 1024px) {
+  .hero-4 h2.real {
+    width: 80%;
+    margin-top: 60px; } }
+
+@media screen and (max-width: 768px) {
+  .hero-4 {
+    background-size: cover;
+    max-height: 800px; }
+    .hero-4 h2.real {
+      width: 95%; } }
+
+@media screen and (max-width: 375px) {
+  .hero-4 {
+    background-size: cover;
+    max-height: 1400px !important;
+    height: 1400px !important; }
+    .hero-4 h2.real {
+      margin-top: 0;
+      width: 95%;
+      font-size: 54px;
+      line-height: 60px; } }
+
+@media screen and (max-width: 410px) {
+  .hero-4 {
+    background-size: cover;
+    max-height: 1400px !important;
+    height: 1400px !important; }
+    .hero-4 h2.real {
+      margin-top: 0;
+      width: 95%;
+      font-size: 42px;
+      line-height: 50px; } }
 
 /*# sourceMappingURL=front.css.map */

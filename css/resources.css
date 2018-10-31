@@ -1,3 +1,7 @@
+.main {
+  margin: 0 !important;
+  width: 100% !important; }
+
 .main.custom-width-1200 {
   max-width: 100%;
   padding: 0; }
@@ -30,9 +34,10 @@ div.card-container {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 0 auto;
-  padding-bottom: 72px; }
+  padding-bottom: 72px;
+  margin: 0 auto; }
   div.card-container div.resource-card {
     height: 318px;
     width: 275px;
@@ -56,6 +61,8 @@ div.card-container {
     margin: 0 auto 16px;
     position: relative;
     bottom: 90px; }
+  div.card-container a:hover {
+    text-decoration: none; }
 
 div.white-cards div.resource-card {
   border: solid 2px #002E5D; }
@@ -64,6 +71,12 @@ div.white-cards h3 {
   color: #002E5D !important; }
 
 div.white-cards p {
+  color: #666 !important; }
+
+div.white-cards a {
+  color: #002E5D !important; }
+
+div.white-cards a:hover {
   color: #666 !important; }
 
 div.blue-cards {
@@ -91,5 +104,48 @@ div.blue-cards {
     color: #AFD6FE !important; }
   div.blue-cards p {
     color: #FFF !important; }
+  div.blue-cards a {
+    color: #FFF !important; }
+  div.blue-cards a:hover {
+    color: #AFD6FE !important; }
+
+@media screen and (max-width: 1250px) {
+  div.card-container {
+    max-width: 600px;
+    padding: 0; }
+    div.card-container div.resource-card {
+      margin-bottom: 92px; } }
+
+@media screen and (max-width: 1020px) {
+  h1.title {
+    width: 80%; }
+  p.intro,
+  p.description {
+    max-width: 90%; } }
+
+@media screen and (max-width: 666px) {
+  div.card-container {
+    max-width: 320px;
+    justify-content: center; }
+  h1.title {
+    font-size: 60px; }
+  p.intro {
+    font-size: 22px;
+    line-height: 30px; }
+  div.blue-cards p.description {
+    font-size: 22px;
+    line-height: 30px; } }
+
+@media screen and (max-width: 425px) {
+  h1.title {
+    font-size: 38px;
+    padding-bottom: 16px;
+    margin: 40px auto; }
+  p.intro {
+    font-size: 18px;
+    line-height: 24px; }
+  div.blue-cards p.description {
+    font-size: 18px;
+    line-height: 24px; } }
 
 /*# sourceMappingURL=resources.css.map */

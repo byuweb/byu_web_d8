@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
-    $cms = jQuery('.field--name-field-icon img'); 
+    $cms = jQuery('.field--name-field-icon img');
 
     $cms.each(function() {
         switch (this.alt) {
@@ -17,12 +17,14 @@ jQuery(document).ready(function() {
                 break;
         }
     });
-    
+
     jQuery(window).scroll(function() {
-      var scroll = jQuery(window).scrollTop();
-    	jQuery(".hero-0").css({
-    		backgroundSize: (100 + scroll/15)  + "%",
-    		top: -(scroll/20)  + "%",
-    	});
+        var scroll = jQuery(window).scrollTop();
+        if (parseInt(jQuery(window).width()) >= 1440) {
+            jQuery(".hero-0").css({
+                backgroundSize: (100 + scroll / 15) + "%",
+                top: -(scroll / 20) + "%",
+            });
+        }
     });
 });

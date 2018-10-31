@@ -1,36 +1,8 @@
 @import "mixins.scss";
 
-// Changes to be build into main theme
-body {
-    font-size: 18px!important;
-    line-height: 26px;
-    margin: 0 32px;
-}
-
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 16px;
-        line-height: 24px;
-        margin: 0 16px;
-    }
-}
-
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    color: $darkGray;
-}
-
-.form-control {
-    color: $darkGray;
-}
-
-.breadcrumb > .active {
-    color: $darkGray;
-}
-
-@media screen and (max-width: 1200px) {
-    .main{
-        margin: 0 16px;
-    }
+.main.custom-width-1200 {
+    width: 95%;
+    margin: 0 auto;
 }
 
 // custom footer icons
@@ -47,10 +19,11 @@ byu-social-media-links .box {
 }
 
 // Resources view
-.view-id-resources .view-content, .view-id-features .view-content {
+.view-id-resources .view-content,
+.view-id-features .view-content {
     display: flex;
     flex-wrap: wrap;
-    
+
     .views-row {
         width: calc(100% * (1/2) - 32px);
         flex-grow: 1;
@@ -58,7 +31,15 @@ byu-social-media-links .box {
         padding: 8px;
         border: solid 1px $lightGray;
     }
-    
+
+    @media screen and (max-width: 876px) {
+        .views-row {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 100%;
+        }
+    }
+
     .views-field-title {
         background-color: $navy;
         font-weight: 500;
@@ -69,25 +50,32 @@ byu-social-media-links .box {
         margin: -8px;
         margin-bottom: 8px;
         padding-left: 16px;
-        
+
         h3 {
             margin: 0 !important;
-            
-            a, a:hover {
+            display: block;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 220px;
+            overflow: hidden;
+            color: $white;
+
+            a,
+            a:hover {
                 color: $white !important;
             }
         }
     }
-    
+
     .views-field-field-cms {
         float: left;
         margin: 0 16px 8px;
     }
-    
+
     .views-field-body {
         clear: left;
     }
-    
+
     .views-field-view-node {
         text-align: center;
         background-color: $green;
@@ -96,45 +84,65 @@ byu-social-media-links .box {
         padding: 16px;
         font-weight: 600;
         text-transform: uppercase;
-        
-        a, a:hover {
+
+        a,
+        a:hover {
             color: $white;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        .views-field-view-node {
+            width: 80%;
         }
     }
 }
 
 .view-id-features {
-    
+
     .form--inline label {
         display: block;
     }
-    
+
     .form-actions .btn {
         margin-top: 25px;
     }
 }
 
 // Resouce Pages
-.field--name-field-download, .field--name-field-source-code, .field--nane-field-demo  {
+.field--name-field-download,
+.field--name-field-source-code,
+.field--name-field-demo {
     float: left;
     padding: 8px 24px;
     text-transform: uppercase;
-    
+
     a {
         color: $white;
     }
 }
 
-.field--name-field-source-code, .field--nane-field-demo {
+.field--name-field-source-code,
+.field--name-field-demo {
     margin-left: 16px;
+}
+
+@media screen and (max-width: 460px) {
+    .field--name-field-source-code,
+    .field--name-field-demo {
+        margin: 16px 0 0;
+        clear: left;
+    }
 }
 
 .field--name-field-download {
     background-color: $royal;
 }
+
 .field--name-field-source-code {
     background-color: $mediumGray;
 }
+
 .field--name-field-demo {
     background-color: $green;
 }
@@ -154,14 +162,14 @@ byu-social-media-links .box {
         border-top: solid 1px $gray;
         padding: 8px 0 0 0;
     }
-    
+
     ul.arrow-nav {
-        list-style: none;  
-            
+        list-style: none;
+
         li {
             display: inline;
         }
-        
+
         li:last-child {
             float: right;
         }
