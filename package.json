@@ -24,7 +24,7 @@
     "gulp-minify": "^2.1.0",
     "gulp-sass": "^3.2.1",
     "gulp-sourcemaps": "^2.6.4",
-    "snyk": "^1.85.0"
+    "snyk": "^1.1150.0"
   },
   "snyk": true
 }
