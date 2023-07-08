@@ -22,9 +22,9 @@
     "gulp-concat": "^2.6.1",
     "gulp-inject": "^4.3.2",
     "gulp-minify": "^2.1.0",
-    "gulp-sass": "^3.2.1",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^2.6.4",
-    "snyk": "^1.85.0"
+    "snyk": "^1.1187.0"
   },
   "snyk": true
 }
